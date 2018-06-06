@@ -8,7 +8,7 @@
   <body>
     <div class="header">
         <div class="logo-container">
-          <img src="/images/87835.png">
+          <img class="logo" src="/images/87835.png">
         </div>
         <div class="title-container">
           <span>AvengerGram</span>
@@ -16,15 +16,21 @@
     </div>
     <div class="maincontainer">  
 	   {{#each posteo}}
-        <div class="post">
-          <div class="user">
-            
+        <div class="user">
+          <div class="ppic-container">
+            <img class="ppic" src="/images/profile.jpg">
           </div>
+          <div>
+            <span class="username">SpiderGwen</span>
+          </div>
+        </div>
+        <div class="post">
           <div class="imgcontainer">
             <img src={{this.foto}}/>
           </div>
           <div class="texto-container">  
-            <img class="like" data-heart='{{this.id}}' src="/images/noliked.png">
+            <img class="like nocolor" data-heart='{{this.id}}' src="/images/noliked.png">
+            <img class="like color hide" data-heart='{{this.id}}' src="/images/liked.png">
             <span class="heart">{{this.likes}}</span>
             <span>{{this.nombre}}</span>
           </div>
