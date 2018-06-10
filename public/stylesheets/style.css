@@ -25,7 +25,6 @@ body {
   width: 40px;
   height: calc(100% - 20px);
   margin-left: 50px;
-<<<<<<< HEAD
   margin-right: 20px;
   border-right: 1px solid white;
   padding-left: 10px;
@@ -55,21 +54,15 @@ body {
 .add {
   height: 60%;
   width: 60%; }
-=======
->>>>>>> ee00c456dc756df09fe94f19b92b249d9745577c
 
 .maincontainer {
   width: 60%;
   height: auto;
   margin: auto;
-<<<<<<< HEAD
-=======
->>>>>>> ee00c456dc756df09fe94f19b92b249d9745577c
   display: flex;
   flex-direction: column;
   align-items: center; }
 
-<<<<<<< HEAD
 .user {
   width: 50%;
   height: auto;
@@ -96,9 +89,6 @@ body {
   width: 50%;
   height: auto;
   margin-bottom: 10px; }
-=======
-
->>>>>>> ee00c456dc756df09fe94f19b92b249d9745577c
 
 .imgcontainer {
   width: 100%;
@@ -116,11 +106,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
   margin-top: 10px;
   margin-bottom: 10px; }
-=======
->>>>>>> ee00c456dc756df09fe94f19b92b249d9745577c
 
 .heart {
   margin-left: 20px;
@@ -128,7 +115,6 @@ body {
 
 img {
   width: 100%;
-<<<<<<< HEAD
   height: auto;
   border-radius: 5px; }
 
@@ -181,7 +167,4 @@ span {
   align-items: center;
   text-decoration: none; }
 
-=======
-
->>>>>>> ee00c456dc756df09fe94f19b92b249d9745577c
 /*# sourceMappingURL=style.css.map */
